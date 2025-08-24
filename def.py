@@ -35,7 +35,8 @@ def replace_T(text, old: str, new: str) -> str:
         else:
             result += text[i]
             i += 1
-    return result 
-text = "132132s"
-print(text)
-print(replace_T(text, "13", "E"))
+    return result
+def ABS(num):
+    return num * -1 if num < 0 else num
+text = "KUY ลี"
+print(lowtext(text))
